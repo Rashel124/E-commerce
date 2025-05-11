@@ -27,4 +27,4 @@ use Symfony\Component\Routing\RouteCompilerInterface;
 
 
 Route::get('/',[FrontendController::class, 'index']);
-Route::get('/contact-us', [FrontendController::class, 'contactUs']);
+// Route::get('/contact-us', [FrontendController::class, 'contactUs']);
