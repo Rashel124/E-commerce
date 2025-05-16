@@ -50,7 +50,7 @@
                                 </h4>
                             </div>
                             <div class="shopping-cart-button">
-                                <a href="view-products.html" class="view-cart-link">View cart</a>
+                                <a href="view-products.html"class="view-cart-link">View cart</a>
                                 <a href="checkout.html" class="checkout-link">Checkout</a>
                             </div>
                         </div>
@@ -93,18 +93,18 @@
                 <div class="header__dynamic-page-wrapper">
                     <ul class="dynamic-page-list">
                         <li class="dynamic-page-list-item">
-                            <a href="index.html" class="dynamic-page-list-item-link">
+                            <a href="{{url('/')}}" class="dynamic-page-list-item-link">
                                 Home
                             </a>
                         </li>
                         <li class="dynamic-page-list-item">
-                            <a href="shop.html" class="dynamic-page-list-item-link">
+                            <a href="{{url('/shop')}}" class="dynamic-page-list-item-link">
                                 Shop
                             </a>
                         </li>
                         </li>
                         <li class="dynamic-page-list-item">
-                            <a href="return-process.html" class="dynamic-page-list-item-link">
+                            <a href="{{url('/return-process')}}" class="dynamic-page-list-item-link">
                                 Return Process
                             </a>
                         </li>

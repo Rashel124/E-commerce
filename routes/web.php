@@ -28,3 +28,7 @@ use Symfony\Component\Routing\RouteCompilerInterface;
 
 Route::get('/',[FrontendController::class, 'index']);
 // Route::get('/contact-us', [FrontendController::class, 'contactUs']);
+Route::get('/shop',[FrontendController::class, 'shopProducts']);
+Route::get('/return-process',[FrontendController::class, 'returnProcess']); 
+Route::get('/product-details',[FrontendController::class, 'productDetails']); 
+Route::get('/type-products',[FrontendController::class, 'typeProducts']); 
